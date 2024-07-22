@@ -59,3 +59,6 @@ tendo tags como Nav para links, aside para conteudos ao lado, article e sectetio
 list-style-position: inside colocar os numeros junto da lista
 mockflow modelos site
 justify-content: center; align-items: center; display: flex; forma de alinhar caixas 
+background-size cover faz a imagem cobrir tudo cortando partes especificas
+background-attachment fixed imagem fixa
+alt L O
