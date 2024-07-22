@@ -1,0 +1,75 @@
+h1{
+    font-size: 1.5em;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #009351;
+}
+h2{
+    font-size: 1.5em;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #009351;
+    text-align: center;
+    box-shadow: 1px 1px 2px #00935138;
+}
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #41E83F;
+    text-indent: 30px;
+    font-size: 1em;
+    margin: auto;
+    text-align: justify;
+}
+body{
+    background-image: linear-gradient(to right , #009351,#41E83F,#41E83F);
+}
+main{
+    background-color: #ffffff;
+    width:1300px;
+    box-shadow: 1px 1px 1px rgb(123, 241, 94);
+    margin:auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+    .links {
+        padding-top: 100px;
+        text-align: left;
+        font: normal 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    img{
+        width: auto;
+        height: auto;
+    }
+    .risco {
+        background-image: linear-gradient(#009351);
+        color: white;
+    }
+    .main2 {
+        background-color:#eb5949a1;
+        padding: auto;
+        width: 1300px;
+        margin: auto;
+        border-radius: 15px;
+    }
+   .pfinal{
+    color: black;
+    text-align: center;
+    background-color: white;
+    width: 1300px;
+    padding: auto;
+    margin: auto;
+    font-size: 1.5em;
+   }
+   .porra{
+    text-align: center;
+   }
+    .lista-esquerda,
+.lista-direita {
+    width: 45%; /* Ajuste a largura conforme necessário */
+    float: left; /* Flutua as listas para a esquerda */
+    /*list-style-type: none; /* Remove as bolinhas das listas */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0 2.5%; /* Adiciona margem entre as listas */}

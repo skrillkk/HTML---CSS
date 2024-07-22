@@ -1,0 +1,33 @@
+@charset "UTF-8"
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #F28705, #F29F05, #F2CB05);
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1c584dbd;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #F23030;
+    text-align: center;
+    text-shadow: 1px 1px 2px #133a33;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-size:1.5em;
+
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+

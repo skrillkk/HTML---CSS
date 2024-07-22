@@ -1,0 +1,60 @@
+use ! ENTER para fazer o script
+<h1>Feito para titulos</h1>
+ <h2> sub titulo </h2> (e assim por adiante podendo conter ate h6, e voce pode sim repetir titulos nao e obrigado a ter apenas 1 h1 1 h2 1 h3)
+<p> Paragrafos </p>
+<hr> feito para fazer uma linha horizontal e nao tem fechamento
+essa tag ela <br>
+quebra o texto fazendo descer a linha
+&lt;blabla&gt; isso cria o simbolo < >
+emojipedia.org pegar codigo dos emojis
+<img src=''nome do arquivo'' alt=''nome do arquivo para ajuda de leitura de acessibilidade''>
+https://favicon.io/  o site para fazer o icone da paginas link:favicon para mudar o icone da pagina
+<u>coloca uma linha sublinhado em baixo</u>
+<strong> Deixa a palavra em negrito dando FORÇA E POTENCIA a frase escrita </strong>
+<em>deixa a escrita mais fina e bonitinha</em>
+<mark> deixa a palavra sublinhada como se tivesse passado um marca-texto</mark>
+<adress> serve para dar destaque a lugares, sendo que possa ate dar para clicar e aceessar o google maps pela tag</adress>
+<del> coloca um risco de apagado no texto</del>
+<ins> faz o contrario poem um risco em baixo falando para prestar atençao nele</ins>
+<code> Deixa tudo do mesmo tamanho e uniforme</code>
+<pre> ela da a aparencia de como tudo vai ser escrito como esta escrito</pre> (eu acho q vou usar muito essa tag)
+<q> CITAÇAO </q>
+<blockquote> uma citaçao MUITO GRANDE </blockquote> ele pode ser usado com a tag cite para colocar o link da  citaçao
+<abbr> serve para quando passar o mouse em cima da frase, mostrar o tamanho total dela exemplo ttk = tik tok
+<ol>abre uma criaçao de lista e com as tags <li>item1</li></ol>
+<ul> e a mesma coisa porem e uma lista sem contagem apenas as bolinhas</ul>
+type de listas igual a ol = 1 A a I i . ul = square circle disc
+<dl> abre, <dt> Serve como termo(na minha visao como minititulo tambem</dt> <dd> e a definiçao do termo ou do minititulo </dd>
+<a href=''''> adicionar links no site</a> hreflang serve para voce contar para o software qual lingua eo site que foi encaminhado
+ainda sobre acima, usasse um ''type'' chamado target que tem variaçoes de _blank
+<picture> <source media="(max-width: 1300px)" srcset="imagens/foto-p.png" sizes="image/png"> COLOCA DINAMICA
+source media e para falar o tamanho maximo/minimo que a imagem pode ir ate ser alterada, o srcset fala igual imagem vai ser alterada
+e o sizes o formato
+<audio logo em seguida a tag preload. AGORA pode se vir 3 tags dentro do preload que sao metadata none auto (a metadata acho que e mais utilizada
+logo apos controls, esta tag e exencial pois ela faz poder se ver e interagir com o audio, autoplay e auto intuitivo vai iniciar quando abrir pg
+e o loop a mesma coisa alto intuitivo
+IFRAME esse codigo vai salvar muito, so ir no video no ytb clicar em compartilhar, e ir em incorporar que ele ja da o codigo feito
+handbrake e muito bom para converter videos e tamanhos
+Vimeo e um site para colocar os videos tambem de forma mais privativa
+para fazer uma imagem com link e mt simples, acho q tambem vale para video e so fazer <a><img></a>
+COMEÇO DE CSS ja começa com esse link na HEAD <link rel="stylesheet" href="style.css">
+font-family serve para mudar a fonte da escrita
+color tem 6 algarismos sendo 00 vermelho 00 verde 00 azul, podendo ser alterado para mudar a cor ou tonalidade
+px pixels na tela cm centimetros in polegadas pt pontos pc paicas em e feito para regular tamanho
+font-style para aplicar tipo de letra
+text-aling alinhar o texto
+background-color mudar o fundo
+background-image linear-gradient faz um modo degrade
+widht tamanho
+padding distancia do top left ou right
+font-size tamanho da fonte
+font-weight muda o ''peso'' da fonte
+border-radius serve para fazer curvinhas no bglh do texto
+o ID ele serve apenas para uma ocasiao sendo identificado pela tag # ja a class para varias ocasioes sendo identificado pela tag . tambem pseudo class : pseudo element :: e filho >
+span e uma tag que serve para apenas dar class, voce no meio do seu paragrafo lorem tantan <span class=''bgcolor''> texto que quero q mude a cor</span>
+display inline-block serve para tudo ficar do lado 
+ja sabemos 
+header, onde vai ser feito a cabeça do site, main o meio. footer o rodape do site
+tendo tags como Nav para links, aside para conteudos ao lado, article e sectetion para escrever 
+list-style-position: inside colocar os numeros junto da lista
+mockflow modelos site
