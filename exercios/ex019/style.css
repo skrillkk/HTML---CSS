@@ -1,0 +1,22 @@
+ body{
+    background-image: url(wallpaper004.jpg);
+ }
+.div{
+display: inline-block;
+ width: 200px;
+ height: 200px;
+ border-radius: 15px;
+ background-color: lightgray;
+ border: 2px solid black;
+ margin: 0px 150px 0px 150px;
+}
+
+#q1{
+    background-color: skyblue;
+}
+#q2{
+    background-image: linear-gradient(to right, blue, purple);
+}
+#q3{
+    background-image: url(pattern004.png);
+}
