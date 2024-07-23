@@ -58,7 +58,12 @@ header, onde vai ser feito a cabeça do site, main o meio. footer o rodape do si
 tendo tags como Nav para links, aside para conteudos ao lado, article e sectetion para escrever 
 list-style-position: inside colocar os numeros junto da lista
 mockflow modelos site
-justify-content: center; align-items: center; display: flex; forma de alinhar caixas 
+justify-content: center; align-items: center; display: flex; forma de alinhar caixas .container {
+    display: flex; /*Possui diversas funções (procurem pela documentação), uma delas é habilitar o manejamento do conteúdo*/
+    justify-content: center; /*Alinhamento horizontal, ou seja, dispensa o "margin: auto"*/
+    align-items: center; /*Alinhamento vertical*/
+}
+
 background-size cover faz a imagem cobrir tudo cortando partes especificas
 background-attachment fixed imagem fixa
 alt L O
