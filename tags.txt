@@ -73,3 +73,7 @@ alt L O
     padding: 0;
     box-sizing: border-box;
 }
+table ''div''
+	table row linhas
+		table header cabeça
+			table data dados
