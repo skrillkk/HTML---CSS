@@ -66,4 +66,10 @@ justify-content: center; align-items: center; display: flex; forma de alinhar ca
 
 background-size cover faz a imagem cobrir tudo cortando partes especificas
 background-attachment fixed imagem fixa
+background-position: right center;
 alt L O
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
