@@ -77,3 +77,4 @@ table ''div''
 	table row linhas
 		table header cabeça
 			table data dados
+sandbox="sandbox" referrerpolicy="no-referrer" isso impede que dentro de um iframe o site que esteja la consiga capturar dados para ele mesmo, e  dados para navegaçao
