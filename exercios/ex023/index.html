@@ -7,12 +7,16 @@
 </head>
 <body>
     <h1>hello parça aqui e meu formulario</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p><label for="icartao">Numero do cartao</label> 
                 <input type="text" name="cartao" id="icartao" required></p>
         <p><label for="ipolicia">tem familiar policia na familia? </label>
                  <input type="text" name="policia" id="ipolicia" required></p>
                      <p><input type="submit" value="Otario"></p>
-    </form>
+                     <p>
+                        <label for="isen">Senha</label>
+                        <input type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password" placeholder="Sua senha atual">
+                     </p>
+    </form> 
 </body>
 </html>
