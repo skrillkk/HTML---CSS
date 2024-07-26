@@ -78,3 +78,7 @@ table ''div''
 		table header cabeça
 			table data dados
 sandbox="sandbox" referrerpolicy="no-referrer" isso impede que dentro de um iframe o site que esteja la consiga capturar dados para ele mesmo, e  dados para navegaçao
+form action=para onde vai o arquivo, method GET ou POST autocomplete on ou off
+Get Formularios vao ficar na url, Post formularios ficarao ''escondidos'' na real so nao vai mostrar na url
+label, serve para indentificar um texto, com uma caixa de formulario, tenddo que conter name  e id sendo mais compativel com o id
+input serve para falar oque e oque fazer oque implementar, ele sozinho faz 90% dos tipos de formulario
