@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <label for="iest">Estados</label>
+        <select name="Estado" id="iest">
+            <option selected>---Escolha---</option>
+            <optgroup label="Regiao Sudeste">
+                    <option value="Rj"> Rio de janeiro</option> 
+                    <option value="Sp">São Paulo</option>
+                    <option value="Mg">Minas Gerais</option>
+            </optgroup>
+                    <optgroup label="Centro Oeste">
+                        <option value="Df">Distrito Federal</option>
+                        <option value="Go"> Goias</option>
+                        <option value="To">Tocantins</option>
+                    </optgroup>
+        </select>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lista" required>
+        <datalist id="lista">
+            <option>Professor</option>
+            <option>Banqueiro</option>
+            <option>desenvolvedor</option>
+            <option>Pedreiro</option>
+             </datalist>
+             <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
