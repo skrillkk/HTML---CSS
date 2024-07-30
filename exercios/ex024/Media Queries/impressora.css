@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+
+}
+
+html,body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    display: none;
+}
+article::before{
+    content: 'Esse artigo foi impresso do site De joao victor ferreira da costa';
+}

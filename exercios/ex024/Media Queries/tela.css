@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+header h1{
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgba(128, 128, 128, 0.164);
+    padding: 15px;
+}
+
+header p {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+header nav {
+    padding-left: 10px;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+header>nav>a {
+    text-decoration: none;
+    color: rgb(212, 18, 18);
+}
+header nav a:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 0.3s;
+}
+main{
+    padding: 20px;
+    line-height: 1.5em;
+}
+section{
+    display: block;
+    margin: auto;
+    width: 50vw;
+}
+section h2 {
+    padding-top: 20px;
+    color: brown;
+}
+footer p {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.164);
+    padding: 5px;
+}
