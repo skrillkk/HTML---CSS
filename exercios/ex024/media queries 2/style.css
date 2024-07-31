@@ -10,4 +10,5 @@ html,body {
     background-color: rgba(128, 128, 128, 0.774);
     width: 100vw;
     height: 100vh;
+    padding: 30px;
 }
